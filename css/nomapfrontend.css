@@ -1,0 +1,132 @@
+body {
+	margin:0;
+	padding:0;
+
+}
+
+.groupLabel {
+	color         : #333300;
+	font-size     : 1.5em;
+	line-height   : 1em;
+	font-family   : Times New Roman;
+	clear         : both;
+	margin-top    : 10px;
+	margin-bottom : 10px;
+	margin-left   : 76px;
+}
+
+.higherGroup,
+.stdViewHeader {
+	color:#000;
+	font-size: 1.7em;
+	line-height:1.5em;
+	font-family: Times New Roman;
+	clear:both;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:76px;
+}
+
+.stdViewHeader {
+	font-size: 4em;
+}
+
+.stdView,
+.stdViewHeader {
+	margin-left:72px;
+	font-weight:bold;
+}
+
+.values{
+	margin-left:72px;
+	font-weight:bold;
+}
+.propertyName{
+	display:inline-block;
+	width:190px;
+	text-align:left;
+	font-weight:bold;
+}
+
+.checkboxLine {
+	display:block;
+	clear:none; 
+	float: left;
+	padding:4px;
+	/*border: 1px solid #ddd*/;
+	border-radius: 3px;
+	cursor:pointer;
+	color: #999;
+}
+.textLine {
+	line-height:.7em;
+	display:block;
+	padding:4px;
+	cursor:pointer;
+	color: #999;
+}
+.checkboxLine:hover{
+	background-color:#eee;
+	color:#000;
+}
+
+.grayFooter{
+	background-color: #6c6f7d;
+	font-family:Tahoma;
+	width:100%;
+	height:210px;
+	font-size: 1.7em;
+	line-height:1.1em;
+	color:#ffffcc;
+	text-align:center;
+	padding-top: 14px;
+	margin-top: 170px;
+}
+
+.moreinfo {
+	font-family:Tahoma;
+	text-align:left;
+	font-size: .4em;
+	line-height:1.2em;
+	color:#33ffcc;
+	padding-left: 14px;
+	margin-top: 10px;
+}
+#langFlag {
+	cursor:pointer;
+	display:block;
+	margin-top:20px;
+	margin-top:20px;
+	margin-right:50px;
+	float:right;
+	clear:both;
+}
+.locationImages {
+	clear:both;
+	padding: 5px;
+	margin-right:60px;
+	border:1px solid #c6c6c6;
+	border-radius:4px;
+}
+.locationImages img {
+	margin-right:4px;
+	border:4px solid #bebfc0;
+	border-radius:3px;
+	cursor:pointer;
+}
+.locationImages img:hover {
+	border:4px solid #FFFFFF;
+}
+#minimap {
+	border:4px solid #F6F6F6;
+	border-radius:3px;
+	float:left;
+	clear:none;
+	margin-right:6px;
+}
+.modal-header{
+	height:30px;
+}
+.modal-body{
+	text-align:center;
+}

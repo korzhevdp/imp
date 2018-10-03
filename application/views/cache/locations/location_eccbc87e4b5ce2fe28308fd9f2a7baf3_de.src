@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<title>Квартира</title>
+	<meta name='yandex-verification' content='74872298f6a53977' />
+</head>
+
+<body>
+	<img src="/images/flag_ru.png" id="langFlag" width="32" height="32" border="0" alt="">
+	<div class="stdViewHeader">
+		Квартира&nbsp;&nbsp;&mdash;&nbsp;&nbsp;две комнаты на Лазарева	</div>
+	<div class="stdView">
+		<img id="minimap" src="/images/minimaps/eccbc87e4b5ce2fe28308fd9f2a7baf3.png" title="улица Тормахова, 2/2, 39.339369,43.909677" alt="minimap">
+		<div class="address"><i class="icon-home"></i>&nbsp;&nbsp;улица Тормахова, 2/2</div>
+		<div class="contacts"><i class="icon-envelope"></i>&nbsp;&nbsp;Контактная информация</div>
+		<div class="coordinates">
+			<i class="icon-map-marker"></i>&nbsp;&nbsp;<span>39.339369,43.909677</span>
+		</div>
+		
+		<div class="locationImages">
+		<h4>Фотографии</h4>
+			<img src="/uploads/mid/3/7d77b7a110684c5e81f6e3b7ace69cb6.jpg" width="128" height="85" class="locationImage"><img src="/uploads/mid/3/2b5b1688581f1f39fe88bd15fbf747da.jpg" width="128" height="85" class="locationImage"><img src="/uploads/mid/3/c2d160aee706a5960da960370fc2e68d.jpg" width="128" height="85" class="locationImage">		</div>
+
+	</div>
+	<div class="stdViewContent">
+		<div class="higherGroup"><!-- Category:: -->Оснащение</div>
+<div class="groupLabel"><!-- Label:: --></div><div class="values"><div class="checkboxLine">Wi-Fi</div>
+<div class="checkboxLine">Биде</div>
+<div class="checkboxLine">Ванна</div>
+<div class="checkboxLine">Вентилятор</div>
+<div class="checkboxLine">Душ</div>
+<div class="checkboxLine">Кондиционер</div>
+<div class="checkboxLine">Кресло</div>
+<div class="checkboxLine">Посуда</div>
+<div class="checkboxLine">СВЧ-печь</div>
+<div class="checkboxLine">Стиральная машина</div>
+<div class="checkboxLine">Стол</div>
+<div class="checkboxLine">Телевизор</div>
+<div class="checkboxLine">Тумба</div>
+<div class="checkboxLine">Утюг</div>
+<div class="checkboxLine">Фен</div>
+<div class="checkboxLine">Холодильник</div>
+<div class="checkboxLine">Шкаф</div>
+<div class="checkboxLine">Электрочайник</div></div>
+<div class="higherGroup"><!-- Category:: -->Контактная информация</div>
+<div class="groupLabel"><!-- Label:: --></div><div class="values">
+<div class="textLine"><span class="propertyName">E-mail</span>: <span class="propertyValue">12@mail.ru</span></div>
+<div class="textLine"><span class="propertyName">Web</span>: <span class="propertyValue">12.narod.ru</span></div>
+<div class="textLine"><span class="propertyName">Skype</span>: <span class="propertyValue">12mailru</span></div>
+
+
+
+</div>
+<div class="higherGroup"><!-- Category:: -->Трансфер</div>
+<div class="groupLabel"><!-- Label:: --></div><div class="values"><div class="textLine"><span class="propertyName">Стоимость трансфера</span>: <span class="propertyValue">3000 &#8381 (russische rouble)</span></div></div>
+<div class="higherGroup"><!-- Category:: -->Планировка</div>
+<div class="groupLabel"><!-- Label:: -->: </div><div class="values"></div>
+<div class="groupLabel"><!-- Label:: --></div><div class="values"><div class="checkboxLine">Балкон</div>
+<div class="checkboxLine">Кухня</div>
+<div class="checkboxLine">Санузел</div></div>	</div>
+
+	<div class="grayFooter">
+		Звонки по вопросам размещения принимает Роман - специалист по найму жилья с 20-летним опытом работы.<br>
+		<div class="moreinfo">
+			&copy;2010-2018<br>
+			Основано на проекте MiniGIS.NET<br>
+			Не является средством массовой информации<br>
+			Номер в реестре распространителей информации: хххххх<br>
+			Сайт использует технологию cookies<br>
+			Сайт не собирает информации о посетителях, кроме той, которую посетители заполняют сами<br>
+			Сайт не собирает информации о банковских картах<br>
+		</div>
+	</div>
+
+	<div class="modal hide fade" id="langSelector" style="width:440px;">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+					</div>
+		<div class="modal-body">
+			<form method=post action="/map/set_language">
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="ru" title="Russian">
+				<img src="/images/flag_ru.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="en" title="English"><img src="/images/flag_en.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="de" title="German"><img src="/images/flag_de.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="es" title="Spanish"><img src="/images/flag_es.png" width="32" height="32" border="0" alt=""></button>
+				<input type="hidden" name="redirect" value="/lodging/eccbc87e4b5ce2fe28308fd9f2a7baf3">
+			</form>
+		</div>
+		<div class="modal-footer"></div>
+	</div>
+
+	<div class="modal hide fade" id="imgViewer">
+		<div class="modal-header" style="height:30px;">
+			Фото<button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+		</div>
+		<div class="modal-body" id="viewer">
+			
+		</div>
+		<div class="modal-footer"></div>
+	</div>
+	
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/nomapfrontend.css" rel="stylesheet" media="screen" type="text/css">
+	<script type="text/javascript" src="/jscript/jquery.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript">
+	<!--
+		$(".modal").modal('hide');
+		$("#langFlag").click(function() {
+			$("#langSelector").modal('show');
+		});
+		$(".locationImage").click(function() {
+			var url = $(this).attr("src").split("/");
+			//alert(url.toSource());
+			//return false
+			$("#viewer").empty().append('<img src="/uploads/full/' + [ url[3], url[4]].join("/") + '">')
+			$("#imgViewer").modal('show');
+		});
+	//-->
+	</script>
+	
+
+</body>
+</html>

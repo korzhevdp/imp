@@ -1,0 +1,298 @@
+body{
+	padding:0;
+	margin:0;
+}
+.navTable{
+	border:none;
+	width:100%
+}
+.navbar{
+	vertical-align:top;
+}
+a.brand img{
+	width:24px;
+	height:24px;
+	border:none;
+}
+.menu_col{
+	vertical-align:top;
+	width:218px;
+}
+#operations_menu li{
+	width: 170px;
+	margin-left:0;
+	font-size:12px;
+	line-height:16px;
+}
+
+td.content h1,
+td.content h2,
+td.content h3,
+td.content h4,
+td.content h5,
+td.content h6 {
+	padding-left:30px !important;
+}
+td.content {
+	vertical-align:top;
+}
+
+.add-on{
+	font-size:12px !important;
+	display:inline-block !important;
+	width:120px !important;
+	text-align:left !important;
+	text-indent:5px;
+	margin-bottom:2px;
+}
+
+.input-prepend {
+	margin-bottom:0;
+	line-height:16px;
+}
+.input-prepend input[type=checkbox]{
+	margin-top : 9px;
+	margin-left: 20px;
+}
+.input-prepend input[type=text],
+.input-prepend input[type=password] {
+	font-size : 12px !important;
+	height    : 26px;
+	width     : 346px;
+	padding   : 1px 8px;
+}
+.input-prepend select {
+	font-size:12px !important;
+	line-height:16px;
+	width: 364px;
+	padding: 1px 8px;
+}
+
+
+.libraryitem {
+	float:left;
+	margin-left:5px;
+	margin-bottom:5px;
+	overflow:hidden;
+	width:320px;
+	height:40px;
+	display:block;
+	border: 1px solid #DDDDDD;
+	vertical-align:middle;
+}
+.libraryitem:hover {
+	background-color:#eee;
+}
+.libraryitem img{
+	margin-right: 10px;
+	margin-top: 4px;
+	float:left;
+	width:32px;
+	height:32px;
+}
+.libraryitem a{
+	padding-top:10px;
+	padding-bottom:20px;
+	display:block;
+}
+
+.control-group{
+	display:block;
+}
+.control-group textarea{
+	width: 349px;
+	height: 50px;
+}
+.pre-label{
+	width:200px !important;
+}
+
+#attributes option {
+	height:24px;
+}
+
+option.lang_ru{
+	background-image  : url(http://api.korzhevdp.com/images/flag_ru.png);
+	background-repeat : no-repeat;
+	height: 32px;
+	text-indent: 40px;
+}
+option.lang_de{
+	background-image:url(http://api.korzhevdp.com/images/flag_de.png);
+	background-repeat : no-repeat;
+	height: 32px;
+	text-indent: 40px;
+}
+option.lang_en{
+	background-image:url(http://api.korzhevdp.com/images/flag_en.png);
+	background-repeat : no-repeat;
+	height: 32px;
+	text-indent: 40px;
+}
+option.lang_es{
+	background-image:url(http://api.korzhevdp.com/images/flag_es.png);
+	background-repeat : no-repeat;
+	height: 32px;
+	text-indent: 40px;
+}
+
+#userTable input[type=text]{
+	width : 70px !important;
+}
+ul.accessgroups {
+	margin-left          : 0;
+	display: block;
+	clear: both;
+}
+ul.accessgroups li {
+	list-style-type : none;
+	display         : block;
+	float           : left;
+	width           : 200px;
+	border          : 1px solid #eee;
+	margin-right    : 8px;
+	margin-bottom      : 8px;
+}
+ul.accessgroups li label{
+	padding : 8px;
+}
+ul.accessgroups li label input[type=checkbox]{
+	margin-left  : 2px;
+	margin-right : 4px;
+}
+
+.langMark {
+	width:32px;
+	height:32px;
+	border:0;
+	margin-top:8px;
+	cursor:pointer;
+}
+
+#gis_edit_form {
+	padding-left:15px;
+}
+
+#gis_edit_form div {
+	display:block;
+	clear:both;
+}
+#gis_edit_form div label{
+	width: 250px !important;
+}
+
+div.semanticsManager {
+	margin-top:25px;
+	padding-left:30px;
+	clear:both;
+}
+
+div.semanticsManager h1,
+div.semanticsManager h2,
+div.semanticsManager h3,
+div.semanticsManager h4,
+div.semanticsManager h5,
+div.semanticsManager h6 {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#tabs1, #tabs2, #tabs3 {
+	height: 320px;
+	overflow:auto;
+}
+
+.semanticsManager input.short {
+	width: 100px;
+}
+
+.semanticControls{
+	display:block;
+	clear:both;
+}
+
+.groupBindings {
+	list-style-type: none;
+	display:block;
+	clear:both;
+	width:500px;
+	margin:0;
+}
+.groupBindings li {
+	float  : left;
+	width  : 230px;
+	padding-left: 8px;
+	outline : 1px solid #eee;
+	margin : 5px;
+}
+.groupBindings li:hover {
+	background-color: #eee;
+}
+
+.groupBindings li label {
+	margin:0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#payTable *{
+	font-size: .8rem;
+}
+#payTable input,
+#payTable select{
+	margin:0;
+}
+#payTable input,
+#payTable select option{
+	padding:2px;
+}
+
+#payTable .type{
+	width:200px;
+}
+
+#payTable .name{
+	width:190px;
+}
+
+#payTable .paidtill{
+	width:140px;
+}
+
+#payTable .last{
+	width:100px;
+}
+
+#payTable .author{
+	width:80px;
+}
+
+#payTable input.datepicker{
+	width:100px;
+}
+
+#payTable select {
+	width:200px;
+	height: 26px;
+}
+#payTable input[type=checkbox]{
+	margin-right:5px;
+	margin-top:4px;
+}
+
+.commentControl {
+	font-size: .5rem;
+}
+
+.commentEntry{
+	width: 600px;
+	font-size: .75rem;
+	margin-left: 15px;
+	clear:both;
+	border: 1px solid #E6E6E6;
+	padding:8px;
+}
+
+.setProperty,
+.activeRow {
+	cursor: pointer;
+}

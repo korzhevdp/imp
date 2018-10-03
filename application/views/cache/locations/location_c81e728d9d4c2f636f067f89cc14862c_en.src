@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>Хостел</title>
+	<meta name='yandex-verification' content='74872298f6a53977' />
+</head>
+
+<body>
+	<img src="/images/flag_ru.png" id="langFlag" width="32" height="32" border="0" alt="">
+	<div class="stdViewHeader">
+		Хостел&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Хрюкино	</div>
+	<div class="stdView">
+		<img id="minimap" src="/images/minimaps/c81e728d9d4c2f636f067f89cc14862c.png" title="Новый адрес, 39.333836,43.901344" alt="minimap">
+		<div class="address"><i class="icon-home"></i>&nbsp;&nbsp;Новый адрес</div>
+		<div class="contacts"><i class="icon-envelope"></i>&nbsp;&nbsp;36397-0029476-22725</div>
+		<div class="coordinates">
+			<i class="icon-map-marker"></i>&nbsp;&nbsp;<span>39.333836,43.901344</span>
+		</div>
+		
+		<div class="locationImages">
+		<h4>Фотографии</h4>
+			<img src="/uploads/mid/2/d7c859dc443bfb1e95c987e5490000af.jpg" width="128" height="85" class="locationImage">		</div>
+
+	</div>
+	<div class="stdViewContent">
+		<div class="higherGroup"><!-- Category:: -->Equipment</div>
+<div class="groupLabel"><!-- Label:: -->Internet access</div><div class="values"><div class="checkboxLine">Wi-Fi</div></div>
+<div class="higherGroup"><!-- Category:: -->Contact info</div>
+<div class="groupLabel"><!-- Label:: -->Contacts</div><div class="values">
+
+
+
+
+
+
+</div>
+<div class="higherGroup"><!-- Category:: -->Transfer</div>
+<div class="groupLabel"><!-- Label:: -->Transfer</div><div class="values"><div class="textLine"><span class="propertyName">Transfer cost</span>: <span class="propertyValue"> &#8381 (russian rouble)</span></div></div>
+<div class="higherGroup"><!-- Category:: -->Room plan</div>
+<div class="groupLabel"><!-- Label:: -->Сomfort</div><div class="values"><div class="checkboxLine">Kitchen</div>
+<div class="checkboxLine">Bathroom</div></div>	</div>
+
+	<div class="grayFooter">
+		Звонки по вопросам размещения принимает Роман - специалист по найму жилья с 20-летним опытом работы.<br>
+		<div class="moreinfo">
+			&copy;2010-2018<br>
+			Основано на проекте MiniGIS.NET<br>
+			Не является средством массовой информации<br>
+			Номер в реестре распространителей информации: хххххх<br>
+			Сайт использует технологию cookies<br>
+			Сайт не собирает информации о посетителях, кроме той, которую посетители заполняют сами<br>
+			Сайт не собирает информации о банковских картах<br>
+		</div>
+	</div>
+
+	<div class="modal hide fade" id="langSelector" style="width:440px;">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+					</div>
+		<div class="modal-body">
+			<form method=post action="/map/set_language">
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="ru" title="Russian">
+				<img src="/images/flag_ru.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="en" title="English"><img src="/images/flag_en.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="de" title="German"><img src="/images/flag_de.png" width="32" height="32" border="0" alt=""></button>
+				<button type="submit" class="btn btn-large langSubmitter" name="lang" value="es" title="Spanish"><img src="/images/flag_es.png" width="32" height="32" border="0" alt=""></button>
+				<input type="hidden" name="redirect" value="/lodging/c81e728d9d4c2f636f067f89cc14862c">
+			</form>
+		</div>
+		<div class="modal-footer"></div>
+	</div>
+	
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/nomapfrontend.css" rel="stylesheet" media="screen" type="text/css">
+	<script type="text/javascript" src="/jscript/jquery.js"></script>
+	<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript">
+	<!--
+		$(".modal").modal('hide');
+		$("#langFlag").click(function() {
+			$(".modal").modal('show');
+		});
+	//-->
+	</script>
+	
+
+</body>
+</html>

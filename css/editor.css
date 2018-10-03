@@ -1,0 +1,380 @@
+div.input-append,
+div.input-prepend {
+	margin-bottom: 3px;
+}
+#mainPage .add-on {
+	font-size:12px;
+	width: 150px;
+	margin: 0px;
+}
+#mainPage input[type=text] {
+	width: 350px;
+	font-size:12px;
+	height:28px;
+	padding: 0px 6px;
+}
+#mainPage select {
+	width: 364px;
+	font-size:12px;
+	height:30px;
+	padding: 0px 6px;
+}
+input[type=checkbox] {
+	margin-top:9px;
+	width:36px;
+}
+span.m_divider {
+	border-left:2px dotted #c6c6c6;
+	margin-left:4px;
+	margin-right:4px;
+	margin-top:4px;"
+}
+#lib-btn {
+	margin-top:3px;
+}
+.brand img {
+	width:24px;
+	height:24px;
+	margin-top:-6px;
+	border:none;
+}
+#headerTable {
+	border:none;
+	width:100%;
+	height:80%;
+}
+body {
+	margin:0px;
+}
+#saveBtn {
+	margin-right:4px;
+	float:right;
+}
+#YMapsID {
+	outline: 0;
+}
+
+body.altEditor .leftColumn {
+	width:278px;
+	background-color: #eee;
+	vertical-align:top;
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:15px;
+}
+
+body.altEditor .rightColumn {
+	overflow:auto;
+	vertical-align : top;
+	padding:0;
+}
+
+body.altEditor .editorTable {
+	outline:0;
+	width: 100%;
+	height:581px;
+}
+
+body.altEditor .pointcoord {
+	width: 205px;
+	margin:0px;
+}
+
+.tab-content{
+	margin:0;
+	border:0;
+}
+
+body.altEditor .typeControl {
+	margin-bottom: 0px;
+}
+
+body.altEditor .nav {
+	margin-bottom: 0px;
+}
+
+body.altEditor .nav li {
+	width: 130px;
+}
+
+body.altEditor .nav {
+	margin-bottom: 0px;
+}
+
+body.altEditor .propPage fieldset {
+	width:95%;
+	padding:5px;
+}
+
+body.altEditor .typeControl select {
+	width: 220px;
+}
+
+.rightColumn input[type=checkbox]{
+	margin-right:4px;
+	margin-top:2px;
+}
+
+.rightColumn label{
+	padding:4px;
+}
+
+.rightColumn label:hover{
+	background-color:#F6F6F6;
+}
+
+
+#l_name,
+#l_addr,
+#l_cont
+{
+	width: 205px;
+}
+
+body.altEditor #saveBtn {
+	margin:0px;
+	float:none;
+}
+
+
+.right-controls {
+	width:270px;
+}
+#mainPage,
+#propPage {
+	padding-left:5px;
+	padding-right:5px;
+}
+#propPage {
+	display:none;
+}
+.pageButtons {
+	padding: 0px 5px;
+	margin:0px;
+	height:25px;
+}
+button.displayMain,
+button.displayPage {
+	height:30px;
+	width:20px;
+}
+#updDataBtn {
+	float: right;
+	margin-right:10px;
+	margin-left:20px;
+}
+#closeBalloonBtn {
+	float:right;
+}
+.balloonHeader {
+	margin-bottom:10px;
+	margin-left:10px;
+}
+#propPage label {
+	font-size:12px;
+	line-height:16px;
+	margin-bottom:2px;
+	cursor:pointer;
+	min-width:140px;
+	max-width: 280px;
+	width:49%;
+	display:block;
+	float:left;
+}
+
+.altEditorHeader {
+	margin-left: 25px;
+}
+
+.altEditorHeader .btn-group {
+	margin-right: 25px;
+}
+
+#propPage label input[type=checkbox] {
+	margin-top: -4px;
+}
+legend {
+	margin:2px;
+	line-height:1.4em;
+	font-size:1.2em;
+	font-weight:bold;
+}
+textarea {
+	width:520px;
+}
+.typefetcher {
+	cursor:pointer;
+	margin-left:4px;
+}
+div.console {
+	position:absolute;
+	top:150px;
+	left:50px;
+	width:300px;
+	height:700px;
+	background-color:#ffffff;
+	z-index: 100000;
+	display: none;
+}
+.langMark {
+	width:32px;
+	height:32px;
+	border:0px;
+	margin-top:8px;
+	cursor:pointer;
+}
+#propPageContent{
+	margin-top:-15px;
+}
+
+div.schedule{
+	padding-left:15px;
+	padding-top: 10px;
+}
+
+#scheduleTable {
+
+}
+
+#scheduleTable .lc{
+	width:110px;
+}
+
+#scheduleTable th{
+	vertical-align:middle;
+}
+
+#scheduleTable input[type=text]{
+	width:40px;
+	margin-left:4px;
+	margin-right:4px;
+	margin-top:2px;
+	margin-bottom:2px;
+
+}
+
+#h24 {
+	margin-top: -2px;
+}
+.imageGallery{
+	height:80px;
+	overflow:auto;
+	list-style-type: none;
+	margin:0px;
+	width:260px;
+}
+
+.imageGallery li{
+	float:  left;
+	clear:  none;
+	border: 2px solid #FFFFFF;
+	margin:2px;
+	cursor:pointer;
+}
+
+li.locationImg{
+	position:relative;
+}
+
+li.locationImg i.icon-remove {
+	top: -3px;
+	right:-2px;
+	position:absolute;
+	background-color: #444;
+	opacity: .9;
+}
+
+#dropZone {
+	color: #555;
+	font-size: 18px;
+	text-align: center;
+
+	width: 400px;
+	padding: 50px 0;
+	margin: 50px auto;
+
+	background: #eee;
+	outline: 1px solid #ccc;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#dropZone.hover {
+	background: #ddd;
+	outline: 6px dashed #aaa;
+}
+
+#dropZone.error {
+	background: #faa;
+	border-color: #f00;
+}
+
+#dropZone.drop {
+	background: #afa;
+	border-color: #0f0;
+}
+.commutes {
+	display:none;
+}
+
+#commutes {
+	display:none;
+	padding: 15px;
+}
+#commutes input[type=text] {
+	width:30px;
+	margin-top:8px;
+}
+
+#commutes select {
+	width:250px;
+	margin-top:8px;
+}
+#trappedPoints {
+	width:450px;
+	list-style-type: none;
+}
+#trappedPoints li {
+	margin: 2px;
+	padding:6px;
+	border: 1px solid #D6D6D6;
+	width:450px;
+	list-style-type: none;
+}
+#trappedPoints li i.icon-remove {
+	cursor:pointer;
+}
+
+#YmapsID{
+	width:100%;
+	height:500px;
+}
+
+.add-on {
+	margin:0px;
+	width:80px !important;
+}
+#l_act,
+#l_comm,
+#traceAddress {
+	margin-top:4px;
+}
+#loadPoints,
+#nodeExport {
+	width:700px;
+}
+.modal-body {
+	height:400px;
+	overflow:auto;
+}
+#DnDStatus{
+	border: 1px solid gray;
+	padding: 2px;
+	vertical-align:middle;
+	text-align:center;
+	font-size:.7em
+	color:#666633;
+	font-weight:bold;
+}

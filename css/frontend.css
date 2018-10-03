@@ -1,0 +1,304 @@
+#YMapsID{
+	height:100%;
+	width:100%;
+	border: 1px solid #D6D6D6;/* none; /*без бордера или (при закомментированном бордере) без чего-то другого не показывает карту... видимо, проблема с блочными элементами*/
+}
+
+#SContainer{
+	display: none;
+	opacity:0;
+	padding: 0;
+	height:400px;
+	width: 227px;
+	z-index: 100;
+	position:absolute;
+	top: 140px;
+	left: 8px;
+	border: 1px solid black;
+	background-color:#EEEEEE;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Для Firefox */
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+	box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Параметры тени */
+
+}
+
+#SContainer .head{
+	font-size:10pt; height:22px; padding:0; margin:0; width: 223px; color: #FFFFCC; background-color:#3366CC; cursor: move;
+}
+
+#SContainer .head{
+	font-size:10pt;
+	height:22px;
+	padding:0;
+	margin:0;
+	width: 225px;
+	color: #FFFFCC;
+	background-color:#3366CC;
+}
+
+#SContainer .head .tag{
+	margin-left:10px;
+}
+
+.main_page_body{
+	border-spacing:0;
+	padding:0;
+	height:600px;
+	width:100%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.map_name{
+	position: absolute;
+	top:58px;
+	left:360px;
+	color:#D6D6D6;
+	background-color: #222222;
+	padding:5px;
+	border: 2px solid #FFFFFF;
+	z-index: 99;
+}
+
+.navbar{
+	margin:3px;
+}
+
+#navup{
+	cursor: pointer;
+}
+
+#navdown{
+	display:none;
+	cursor: pointer;
+}
+
+#objfilter{
+	margin-top:4px;
+	margin-left:2px;
+	width:  190px;
+	height: 1.1rem;
+}
+
+#mainselector{
+	overflow: auto;
+}
+
+.grouplabel{
+	text-indent: 15px;
+	font-family: Tahoma;
+	font-size: .9rem;
+	height: 1rem;
+	width:206px;
+	font-weight:bold;
+	border-bottom: 1px dashed #999999;
+	cursor: pointer;
+	padding-bottom:5px;
+}
+.groupcontainer{
+	font-family: Tahoma;
+	font-size: 8pt;
+	width: 200px;
+	display: none;
+	padding:1px;
+	overflow: auto;
+}
+
+
+.groupcontainer ul, #resultBody{
+	margin:0;
+	padding:0;
+}
+
+#resultBody li {
+	background-color: white;
+	font-family: Tahoma;
+	font-size: 8pt;
+	border: 1px solid gray;
+	margin-top:2px;
+	margin-left: 2px;
+	padding:2px;
+	cursor:pointer;
+}
+
+.itemcontainer{
+	border-bottom: 1px solid #DDDDDD;
+	color: #444444;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: .8rem;
+	padding-top:4px;
+	font-family: Tahoma;
+	height:32px;
+	width:199px;
+	margin-left:1px;
+}
+
+.itemcontainer img{
+	margin-left:3px;
+	margin-right:4px;
+}
+
+.itemcontainer select{
+	width: 190px;
+}
+
+
+.itemcontainer:hover{
+	text-decoration:underline;
+	color: #000000;
+}
+
+#navigator{
+	padding: 0;
+	height:330px;
+	overflow:auto;
+	width: 223px;
+	z-index: 101;
+}
+#navheader {
+	margin-bottom:5px;
+}
+
+#resultBody .active {
+	border: 1px solid red;
+	color: red;
+}
+.altSelector {
+	margin:5px;
+	font-size: 1.5rem;
+}
+
+.langMark {
+	width:32px;
+	height:32px;
+	border:0;
+	margin-top:8px;
+	cursor:pointer;
+}
+
+h3.stdView {
+	margin-left:20px;
+}
+
+h3.stdView small {
+	margin-left:40px;
+}
+
+h3.stdView i,
+div.stdView i {
+	margin-right:10px;
+}
+
+div.stdView {
+	height:128px;
+	overflow: hidden;
+}
+div.stdView .coord1{
+	margin-left:0;
+}
+div.stdView .coord2{
+	margin-left:24px;
+}
+div.stdView img {
+	width: 128px;
+	height: 128px;
+	border: none;
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+	display: block;
+}
+div.stdViewContent {
+	max-width:724px;
+	padding-left: 20px;
+	margin-bottom: 90px;
+	color: #999;
+}
+
+
+
+.control-group {
+	display:block;
+}
+.control-group textarea {
+	width: 349px;
+	height: 50px;
+}
+.pre-label{
+	width:200px !important;
+}
+
+.add-on {
+	font-size:12px !important;
+	display:inline-block !important;
+	width:120px !important;
+	text-align:left !important;
+	text-indent:5px;
+	margin-bottom:2px;
+}
+
+.input-prepend {
+	margin-bottom:0;
+	line-height:16px;
+}
+.input-prepend input[type=checkbox]{
+	margin-top : 9px;
+	margin-left: 20px;
+}
+.input-prepend input[type=text],
+.input-prepend input[type=password] {
+	font-size : 12px !important;
+	height    : 26px;
+	width     : 346px;
+	padding   : 1px 8px;
+}
+.commentForm{
+	width : 700px;
+	padding-left:15px;
+	margin-bottom:60px;
+	clear:both;
+	display:block
+}
+.commentForm textarea{
+	height: 130px;
+
+}
+.commentForm small{
+	display:block;
+	clear:both;
+	margin-top: 4px;
+	color: #aaa;
+	margin-left: 220px;
+}
+
+
+div.ymaps_big_balloon{
+	font-size: .9em;
+}
+
+div.ymaps_big_balloon #sm_src_pic{
+	width:370px;
+	height:150px;
+	clear:both;
+	display:block;
+}
+
+div.ymaps_big_balloon .tlabel{
+	font-weight: bold;
+	color: #888888;
+}
+div.ymaps_big_balloon .addr,
+div.ymaps_big_balloon .name,
+div.ymaps_big_balloon .cont {
+	color: #000000;
+}
+
+
+div.ymaps_big_balloon #l_photo{
+	float:left;
+	margin:3px;
+	cursor:pointer;
+	padding:2px;
+	background-color:#DDDDDD;
+}
